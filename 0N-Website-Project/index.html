@@ -1,0 +1,241 @@
+ <!--
+
+-------------------
+====  N O T E S  ===
+______________________
+
+- SEE WEBSITE PLANNING DOC
+- the yellow border is gonna be removed at the end, rn it's just there to show the boundaries of where the character moves. can use them as guidance for drawing a gate !!
+
+-->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Homepage</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap"             
+   rel="stylesheet">
+</head>
+
+<body>
+  <!--
+   <div id="container" >
+    <div class="p-sami profile">Sami</div>
+    <div class="p-janice profile">Janice</div>
+    <div class="p-calvin profile">Calvin</div>
+    <div class="p-tori profile">Tori</div>
+    <div class="p-huynh profile">Huynh</div>
+    <div class="p-jenn profile">Jennifer</div>
+  </div> -->
+  <canvas width="1000" height = "700">
+  </canvas>
+ 
+  
+  <h1 id="welcome_banner">Welcome to O(N) Team</h1>
+
+  <div class = "oz">
+    <img src = "../imgs/oz.png" width = 65px>
+  </div> 
+  <div class = "tree-left" style="z-index:-1">
+    <img src = "../imgs/tree.png" width = 200px>
+  </div>
+
+  <!--
+  <div class ="skeleton"> 
+    <img src = "../imgs/skeleton.png"> 
+  </div>
+  -->
+  <!--
+  <div class = "gate" style="z-index:-1">
+    <img src = "../imgs/gate.png"
+  </div> -->
+  <div id="topFences">
+      <div class = "fence" style = "z-index: -1; top: 0%; left:10%"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+      <div class = "fence" style = "z-index: -1; top: 0%; left:15%;"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+      <div class = "fence" style = "z-index: -1; top: 0%; left:20%;"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+      <div class = "fence" style = "z-index: -1; top: 0%; left:25%;"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+      <div class = "fence" style = "z-index: -1; top: 0%; left:30%;"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+      <div class = "fence" style = "z-index: -1; top: 0%; left:35%;"> 
+        <img src = "../imgs/fence.png" width = 69px; >
+      </div>
+     <div class = "fence" style = "z-index: -1; top: 0%; left:40%;"> 
+        <img src = "../imgs/fence.png" width = 69px; >
+      </div>
+     <div class = "fence" style = "z-index: -1; top: 0%; left:45%;"> 
+        <img src = "../imgs/fence.png" width = 69px; >
+      </div>
+     <div class = "fence" style = "z-index: -1; top: 0%; left:50%;"> 
+        <img src = "../imgs/fence.png" width = 69px; >
+      </div>
+     <div class = "fence" style = "z-index: -1; top: 0%; left:55%;"> 
+        <img src = "../imgs/fence.png" width = 69px; >
+      </div>
+     <div class = "fence" style = "z-index: -1; top: 0%; left:60%;"> 
+        <img src = "../imgs/fence.png" width = 69px; >
+      </div>
+     <div class = "fence" style = "z-index: -1; top: 0%; left:65%;"> 
+        <img src = "../imgs/fence.png" width = 69px; >
+      </div>
+     <div class = "fence" style = "z-index: -1; top: 0%; left:70%;"> 
+        <img src = "../imgs/fence.png" width = 69px; >
+      </div>
+     <div class = "fence" style = "z-index: -1; top: 0%; left:75%;"> 
+        <img src = "../imgs/fence.png" width = 69px; >
+      </div>
+     <div class = "fence" style = "z-index: -1; top: 0%; left:80%;"> 
+        <img src = "../imgs/fence.png" width = 69px; >
+      </div>
+     <div class = "fence" style = "z-index: -1; top: 0%; left:85%;"> 
+        <img src = "../imgs/fence.png" width = 69px; >
+      </div>
+  </div>
+  <div id="bottomFences"> 
+      <div class = "fence" style = "z-index: -1; bottom: 20%; left:10%"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+      <div class = "fence" style = "z-index: -1; bottom:20%; left:15%;"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+      <div class = "fence" style = "z-index: -1; bottom:20%; left:20%;"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+      <div class = "fence" style = "z-index: -1; bottom:20%; left:25%;"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+      <div class = "fence" style = "z-index: -1; bottom:20%; left:30%;"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+      <div class = "fence" style = "z-index: -1; bottom:20%; left:35%;"> 
+        <img src = "../imgs/fence.png" width = 69px; >
+      </div>
+     <div class = "fence" style = "z-index: -1 ;bottom:20%; left:40%;"> 
+        <img src = "../imgs/fence.png" width = 69px; >
+      </div>
+     <div class = "fence" style = "z-index: -1; bottom:20%; left:45%;"> 
+        <img src = "../imgs/fence.png" width = 69px; >
+      </div>
+     <div class = "fence" style = "z-index: -1; bottom:20%; left:50%;"> 
+        <img src = "../imgs/fence.png" width = 69px; >
+      </div>
+     <div class = "fence" style = "z-index: -1; bottom:20%; left:55%;"> 
+        <img src = "../imgs/fence.png" width = 69px; >
+      </div>
+     <div class = "fence" style = "z-index: -1; bottom:20%; left:60%;"> 
+        <img src = "../imgs/fence.png" width = 69px; >
+      </div>
+     <div class = "fence" style = "z-index: -1; bottom:20%; left:65%;"> 
+        <img src = "../imgs/fence.png" width = 69px; >
+      </div>
+     <div class = "fence" style = "z-index: -1; bottom:20%; left:70%;"> 
+        <img src = "../imgs/fence.png" width = 69px; >
+      </div>
+     <div class = "fence" style = "z-index: -1; bottom:20%; left:75%;"> 
+        <img src = "../imgs/fence.png" width = 69px; >
+      </div>
+     <div class = "fence" style = "z-index: -1; bottom:20%; left:80%;"> 
+        <img src = "../imgs/fence.png" width = 69px; >
+      </div>
+     <div class = "fence" style = "z-index: -1; bottom:20%; left:85%;"> 
+        <img src = "../imgs/fence.png" width = 69px; >
+      </div>
+  </div>
+  <div id= "leftFences" style = "transform: rotate(270deg);"> 
+      <div class = "fence" style = "z-index: -1; bottom: 28em; left:120%"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+      <div class = "fence" style = "z-index: -1; bottom: 28em; left:115%"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+      <div class = "fence" style = "z-index: -1; bottom: 28em; left:110%"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+     <div class = "fence" style = "z-index: -1; bottom: 28em; left:105%"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+     <div class = "fence" style = "z-index: -1; bottom: 28em; left:100%"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+      <div class = "fence" style = "z-index: -1; bottom: 28em; left:95%"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+      <div class = "fence" style = "z-index: -1; bottom: 28em; left:90%"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+      <div class = "fence" style = "z-index: -1; bottom: 28em; left:85%"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+      <div class = "fence" style = "z-index: -1; bottom: 28em; left:80%"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+  </div>
+  <div id="rightFences" style = "transform: rotate(90deg);"> 
+     <div class = "fence" style = "z-index: -1; bottom: 28em; right:120%"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+      <div class = "fence" style = "z-index: -1; bottom: 28em; right:115%"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+      <div class = "fence" style = "z-index: -1; bottom: 28em; right:110%"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+     <div class = "fence" style = "z-index: -1; bottom: 28em; right:105%"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+     <div class = "fence" style = "z-index: -1; bottom: 28em; right:100%"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+      <div class = "fence" style = "z-index: -1; bottom: 28em; right:95%"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+      <div class = "fence" style = "z-index: -1; bottom: 28em; right:90%"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+      <div class = "fence" style = "z-index: -1; bottom: 28em; right:85%"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+      <div class = "fence" style = "z-index: -1; bottom: 28em; right:80%"> 
+        <img src = "../imgs/fence.png" width = 69px;>
+      </div>
+  </div>
+     
+  <script src="script.js"></script>
+
+  <!--
+  <div class="owl">
+  <div class="body">
+    <div class="wing b r"></div>
+    <div class="wing b r"></div>
+  </div>
+  <div class="ear"></div>
+  <div class="ear"></div>
+  <div class="beak b"></div>
+  <div class="eye b r"></div>
+  <div class="eye b r"></div>
+  <div class="feet b"></div> 
+  </div> -->
+  
+
+ </body> 
+</html>
+
+
+
+
+     
