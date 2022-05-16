@@ -1,0 +1,44 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color:#1b4650;
+}
+
+.titleLayout {
+  color: white;
+  text-align:center;
+  font:Now-bold;
+  font-size:25px;
+}
+
+#teamImage {
+  border-radius: 20px;
+  height: auto;
+}
+
+.pictureLayout {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom:5%;
+  margin: 5% 28% 0% 28%;
+  border-style:solid;
+  border-color:#5fb2ce;
+  border-width:5px;
+  border-radius: 10px;
+  height: 40%;
+  background-color:lightblue;
+}
+
+
+#secondPicture {
+  margin-top: 10%;
+  margin-bottom:10%;
+}
+
+#teamMembers {
+  height: auto;
+}
